@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-image: url("/images/bgImg.jpg");
+  background-size: cover;
+}
+
+.title {
+  color: black;
+}
+
+.card {
+  background-color: rgba(241, 241, 241, 0.7);
+  padding: 2em;
+  border-radius: 10%;
+  width: 100%;
+  max-width: 300px;
+}
+
+.weather.loading {
+  visibility: hidden;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__bar {
+  border: none;
+  outline: none;
+  border-radius: 0.8em;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.search__button {
+  width: 2em;
+  height: 2em;
+  border: none;
+  outline: none;
+  margin-left: 0.5em;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.search__icon {
+  width: 1em;
+  height: 1em;
+}
+
+.temp {
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: capitalize;
+}
