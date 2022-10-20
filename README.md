@@ -1,5 +1,10 @@
 # Weather App
 
+
+## Demonstration
+
+![](demo.gif)
+
 ## Features
 - Search up local weather based on city
 - Get weather, wind speed, and humidity
